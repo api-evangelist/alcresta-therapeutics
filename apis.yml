@@ -1,8 +1,25 @@
 aid: alcresta-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alcresta-therapeutics.png
 name: Alcresta Therapeutics
-description: 'Alcresta Therapeutics is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: biotech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Alcresta Therapeutics is a specialty pharmaceutical company developing enzyme-based products
+  that improve fat absorption and digestive health for people with rare and chronic conditions. Its lead
+  product, the RELiZORB (immobilized lipase) cartridge, uses the company''s patented iLipase microbead
+  technology to mimic pancreatic lipase and hydrolyze fats in enteral (tube) feeding formulas, helping
+  patients with exocrine pancreatic insufficiency, cystic fibrosis, short bowel syndrome, and critical-care
+  nutrition needs absorb fatty acids they otherwise could not. Alcresta is backed by Bessemer Venture
+  Partners. The company operates a corporate and product marketing website but publishes no public developer
+  API, SDKs, or machine-readable API specifications at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/alcresta-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +33,13 @@ modified: '2026-07-17'
 tags:
 - Company
 - Biotech
+- Pharmaceuticals
+- Rare Disease
+- Enzyme Therapy
+- Enteral Nutrition
+- Digestive Health
+- Medical Device
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/alcresta-therapeutics-domain-security.yml
 - type: Website
   url: https://www.alcresta.com/
+- type: Support
+  url: https://www.alcresta.com/contact/
+- type: Blog
+  url: https://www.alcresta.com/investors-news/
+- type: TermsOfService
+  url: https://www.alcresta.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.alcresta.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
